@@ -1,12 +1,12 @@
 # My Default Gruntfile
-The start-point for most of my projects, saved here so I don't have to keep digfging around in active projects trying to find my latest version ;)
+The start-point for most of my projects, saved here so I don't have to keep digging around in active projects trying to find my latest version ;)
 
 ## Development status
-This is very much a work **In progress** and there's a great deal I like to improve here, primarily shifting whatever I can to PostCSS and adding Sass-lint with a most-righteous ruleset, the starting point will probably be https://gist.github.com/davidtheclark/d764f70ffaca09892293 because I agree with pretty much everything @davidtheclark wrote here: http://davidtheclark.com/scss-lint-styleguide/
+This is very much a work **in progress** and there's a great deal I like to improve here, primarily shifting whatever I can to PostCSS and adding Sass-lint with a most-righteous ruleset, the starting point will probably be https://gist.github.com/davidtheclark/d764f70ffaca09892293 because I agree with pretty much everything @davidtheclark wrote here: http://davidtheclark.com/scss-lint-styleguide/
 .
 
 ## What does it do?
-One of the primary goals in my project setups is to draw a very clear line between source files and production files; the two are very seperate beasts. This file enforces that in a pretty heavy-handed way by deleting the contents of the output folders on each run. Don't put things in the /assets/ directory directly, because you'll quickly lose them.
+One of the primary goals in my project setups is to draw a very clear line between source files and production files; the two are very separate beasts. This file enforces that in a pretty heavy-handed way by deleting the contents of the output folders on each run. Don't put things in the /assets/ directory directly, because you'll quickly lose them.
 
 ### That's a little vague…
 
