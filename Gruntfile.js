@@ -14,8 +14,8 @@ require('time-grunt')(grunt);
 
     // Configurable paths, point them where you want.
     var config = {
-        app: 'app', // The output directory
-        dist: 'assets' // The source directory
+        app: 'app', // The source directory
+        dist: 'assets' // The output directory
     };
 
     //Initializing the configuration object
