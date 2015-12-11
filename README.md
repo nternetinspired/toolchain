@@ -23,13 +23,16 @@ Yes, but I think it's important to look at the overall thoughts behind project s
 11. The watch task fires up and watches certain files and folders for changes. Changes to src/js files src/sass files or any Jekyll source file will trigger the appropriate build task tgo run again.
 
 `grunt build`
+
 1. Tasks 1–6, as above.
 6. Minify the heck out of our JS plugins *and* concatenate them to a single file.
 7. Minifiy the heck out of /src/js/scripts.js
 8. Any JS files in src/js/vendor are copied across as-is.
-9. Exit and tell you how fast each task was executed.
+9. Exit and tell you how fast each task was executed:
+![Grunt build result](https://dl.dropboxusercontent.com/u/10118147/grunt-build-result.png)
 
 `grunt test`
+
 1. Check your source Scss for consistency and silly mistakes, then tells you all about it.
 
 ## Installation
