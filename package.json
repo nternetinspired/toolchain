@@ -1,0 +1,39 @@
+{
+  "name": "internet-inspired",
+  "version": "1.0.1",
+  "author": "Seth Warburton <seth@internet-inspired.com>",
+  "description": "Oneweb - A web thing",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nternetinspired/gruntfile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nternetinspired/gruntfile/issues"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.1.2",
+    "cssnano": "^3.4.0",
+    "grunt": "^0.4.5",
+    "grunt-browser-sync": "^2.0.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-imagemin": "^1.0.0",
+    "grunt-grunticon": "^2.1.6",
+    "grunt-jekyll": "^0.4.3",
+    "grunt-postcss": "^0.7.1",
+    "grunt-sass": "^1.1.0",
+    "grunt-scss-lint": "^0.3.8",
+    "grunt-svgmin": "^2.0.1",
+    "jit-grunt": "^0.9.1",
+    "jshint-stylish": "^1.0.1",
+    "postcss-scss": "^0.1.3",
+    "scss-lint": "0.0.0",
+    "time-grunt": "^1.1.0"
+  }
+}
