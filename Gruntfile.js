@@ -3,7 +3,7 @@
 /*!
  * Inspired Gruntfile
  * Copyright 2015 Seth Warburton.
- * Version 1.01
+ * Version 1.0.1
  * Licensed under MIT (http://opensource.org/licenses/MIT)
  */
 
@@ -177,8 +177,8 @@ require('time-grunt')(grunt);
                 '<%= config.app %>scss',
             ],
             options: {
-                config: '<%= config.app %>scss/.scss-lint.yml',
-                reporterOutput: 'scss-lint-report.xml'
+                config: '<%= config.app %>scss-lint.yml',
+                reporterOutput: '<%= config.app %>scss-lint-report.xml'
             },
         },
 
